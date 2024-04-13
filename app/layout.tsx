@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/footer";
+import Image from 'next/image';
+import Header from "./components/header";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +20,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+       <body className="bg-image h-full">
+        <Header/>
+       <Image
+          
+          src="/background.png" // Specify the path to your image
+          alt="Background Image"
+          className="bg-image"
+          layout="fill"
+          objectFit="cover"
+        />
         {children}
         <Footer/>
         </body>
