@@ -1,13 +1,20 @@
-import type { Config } from "tailwindcss";
 
-const config: Config = {
+
+const config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
+    fontFamily:{
+      'roboto': ['Roboto', 'sans-serif'],
+    },
     extend: {
+      colors:{
+        "footer-text": "#414042"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
