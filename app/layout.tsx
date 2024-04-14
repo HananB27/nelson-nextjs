@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <body className="bg-image h-full">
+       <body className="bg-image h-full items-center justify-center flex flex-col w-full">
         <Header/>
        <Image
           

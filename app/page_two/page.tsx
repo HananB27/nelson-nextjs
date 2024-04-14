@@ -7,8 +7,8 @@ import Footer from '../components/footer';
 function Page() {
     return (
         <div>
-            <Test/>
-            <Footer/>
+            
+            
         </div>
     );
 }
