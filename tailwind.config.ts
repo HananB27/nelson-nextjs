@@ -12,6 +12,7 @@ const config = {
       'xs': '.75rem',   // Extra Small
       'sm': '.875rem',  // Small
       'base': '1rem',   // Base
+      'bigger':'1.075rem',
       'lg': '1.125rem', // Large
       'xl': '1.25rem',  // Extra Large
       '2xl': '1.5rem',  // 2 Extra Large
